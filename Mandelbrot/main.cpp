@@ -9,10 +9,10 @@ int main(int argc, char* argv[])
 {
 	// DrawMandelbrot();
 	// DrawSSEMandelbrot();
-	DrawFloatSSEMandelbrot();
+	// DrawFloatSSEMandelbrot();
 
 	// DrawAlphaBlending();
-	// DrawSSEAlphaBlending();
+	DrawSSEAlphaBlending();
 
 	return 0;
 }

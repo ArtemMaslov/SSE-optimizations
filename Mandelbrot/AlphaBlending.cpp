@@ -404,7 +404,7 @@ static void DrawAlphaBlending(video_mem_t* video_mem, const bool simple)
 			return;
 		}
 
-		for (size_t st = 0; st < 1000; st++)
+		//for (size_t st = 0; st < 1000; st++)
 		{
 			if (simple)
 			{

@@ -329,11 +329,11 @@ void DrawOptimizedFloatMandelbrot(video_mem_t* video_mem)
 		if (!ReadKeyboard())
 			return;
 
-		for (size_t st = 0; st < 100; st++)
+		//for (size_t st = 0; st < 100; st++)
 		{
 			double minX     = (map0.minX + moved.x) * scale;
 			double maxX     = (map0.maxX + moved.x) * scale;
-
+			
 			double minY     = (map0.minY + moved.y) * scale;
 			double maxY     = (map0.maxY + moved.y) * scale;
 
